@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-v1
-        image: gcr.io/google-samples/hello-app:56
+        image: ghcr.io/opadial203/tfg:57
         ports:
         - containerPort: 8080
 
