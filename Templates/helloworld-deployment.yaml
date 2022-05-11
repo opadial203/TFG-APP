@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-v1
+  labels:
+    app.kubernetes.io/instance: tfg
 spec:
   replicas: 3
   selector:
