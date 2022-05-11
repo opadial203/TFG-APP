@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-v1
+  labels:
+    app.kubernetes.io/instance: tfg
 spec:
   replicas: 3
   selector:
@@ -14,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-v1
-        image: gcr.io/google-samples/hello-app:55
+        image: gcr.io/google-samples/hello-app:56
         ports:
         - containerPort: 8080
 
