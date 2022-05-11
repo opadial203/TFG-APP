@@ -18,6 +18,6 @@ spec:
       - name: hello-v1
         image: ghcr.io/opadial203/tfg:BUILD_JENKINS
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 
 
