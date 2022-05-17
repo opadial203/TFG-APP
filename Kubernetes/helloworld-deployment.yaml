@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-v1
-        image: ghcr.io/opadial203/tfg:64
+        image: ghcr.io/opadial203/tfg:65
         ports:
         - containerPort: 80
 
